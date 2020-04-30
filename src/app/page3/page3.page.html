@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Conceptos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ <ion-card>
+   <ion-card-title>
+     Aplicaciones Nativas
+   </ion-card-title>
+   <ion-card-content>
+     <ion-label>
+      Las aplicaciones nativas son aquellas que son desarrolladas especifcamente para cada sistema operativo , por ejemplo: <br>
+
+      *Java o Kotlin para crear aplicaciones para dispositivos Android.<br>
+      *Objective-C o Swift para crear aplicaciones para dispositivos con iOS o Mac OS.<br>
+      *C# o .Net para Windows.
+
+     Es un modelo 100% dependiente de la plataforma y las aplicaciones no son portables a otras, hay que desarrollar una por cada plataforma.<br>
+     </ion-label>
+   </ion-card-content><br>
+   <ion-card-title>
+    Aplicaciones Hibridas
+   </ion-card-title>
+   <ion-card-content>
+    Las aplicaciones híbridas son aquellas en las que se utiliza una combinación de aspectos de las aplicaciones nativas en conjunto con lenguajes de tecnología web como HTML, JavaScript y CSS , lo que permite su adaptación a cualquier sistema operativo. <br>
+
+    Son esencialmente páginas web incrustadas en una aplicación móvil a través de un WebView.<br>
+
+    Entre algunos los frameworks JavaScript para poder desarrollar apps híbridas están:<br>
+
+    *Ionic : Es una herramienta gratuita y open source, para el desarrollo de aplicaciones híbridas basadas en HTML5, CSS y JS. Está construido con Sass y optimizado con Angular JS.<br>
+    *Onsen UI: Es un framework open source que permite a los desarrolladores implementar aplicaciones con elementos que parecen nativos. Es simple de utilizar, puedes trabajar con o sin Angular JS.<br>
+    *React Native: El propósito de React Native es implementar apps nativas adecuadas, en vez de crear aplicaciones híbridas que solamente se ejecuten en un navegador.<br>
+   </ion-card-content>
+ </ion-card>
+ <ion-card>
+   <ion-card-title>
+    ¿Qué es apache cordova?
+   </ion-card-title>
+   <ion-card-content>
+     <ion-label>Apache Cordova (versión de código abierto de PhoneGap) es un popular entorno de desarrollo de aplicaciones móviles, originalmente creado por Nitobi. Adobe compró Nitobi en 2011, le cambió el nombre a PhoneGap, y más tarde liberó una versión de código abierto del software llamado Apache Cordova.3​ Apache Cordova permite, a los programadores de software, construir aplicaciones para dispositivos móviles utilizando CSS3, HTML5, y JavaScript en vez de utilizar APIs específicas de cada plataforma como Android, iOS, o Windows Phone.4​ Permite encapsular CSS, HTML, y código de Javascript dependiendo de la plataforma del dispositivo. Extiende las características de HTML y JavaScript para trabajar con el dispositivo. Las aplicaciones resultantes son híbridas, lo que significa que no son ni una aplicación móvil nativa (porque toda la representación gráfica se realiza vía vistas de Web en vez del framework nativo) ni puramente basadas en web (porque no son solo aplicaciones web, sino que están empaquetadas como aplicaciones para su distribución y tienen acceso a las APIs nativas del dispositivo). La mezcla de código nativo e híbrido ha sido posible desde la versión 1.9.</ion-label>
+   </ion-card-content>
+ </ion-card><br>
+ <ion-button  expand="block" (click)= "segundapag()" color="danger" >VOLVER</ion-button>
+ <ion-button  expand="block" (click)= "primerapag()" color="danger">Página 1</ion-button>
+</ion-content>

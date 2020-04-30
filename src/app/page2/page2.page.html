@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Frameworks</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ <ion-card>
+  <ion-card-header>
+    <ion-card-title>
+     Frameworks mas utilizados.
+    </ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-list *ngFor="let Muestra of Frameworks">
+      <ion-item>
+       <ion-label><a>{{Muestra.Numero}}</a> {{Muestra.Titulo}}</ion-label><br>
+      </ion-item>
+     </ion-list> <br><br>
+     
+   
+     <p>React Native</p>
+     <ion-label>
+      React Native, es sin duda una de las plataformas favoritas entre muchas de las grandes empresas y StartUps, tanto utilizado para construir aplicaciones Android como iOS, el desarrollo React Native permite a los desarrolladores de aplicaciones móviles crear aplicaciones de alto rendimiento en ciclos de desarrollo más cortos y tiempos de implementación más rápidos.
+     </ion-label><br>
+
+     <p>Xamarin</p>
+     <ion-label>
+      Xamarin es un Framework propiedad de Microsoft que facilita el desarrollo de las aplicaciones multiplataforma, pudiendo poder aprovechar casi en su totalidad el código de una aplicación a otra.
+     </ion-label><br>
+     
+     <p>PhoneGap</p>
+     <ion-label>
+      El Framework de PhoneGap, en la actualidad comprado por Adobe; con anterioridad conocido por Apache Cordoba por formar parte del universo de desarrollo de la Fundación Apache. Ofrece como su mayor diferenciación el desarrollo de aplicaciones móviles mediante la visualización de sus cambios de forma instantanea.
+     </ion-label><br>
+
+     <p>Native Script</p>
+     <ion-label>
+      Nombrado como el mejor framework de aplicaciones híbridas 2019-2020, Native Scripts está respaldado por una compañía de software búlgara, Telerik. Fue creado originalmente por Progress. Las aplicaciones creadas con Native Scripts usan las mismas API que si estuvieran construidas con Xcode o Android studio.
+     </ion-label><br>
+
+     <p>Appcelerator Titanium</p>
+     <ion-label>
+      Appcelerator Titanium utiliza una combinación de PhoneGap y Xamarin. Este marco utiliza JavaScript para escribir el código y es compatible con plataformas Android e iOS. Sin embargo, no viene con framework de CSS y HTML ni nada que lo implemente de forma directa.
+     </ion-label><br>
+   </ion-card-content>
+ </ion-card>
+
+ <ion-button  expand="block" (click)= "primerapag()" color="danger" >VOLVER</ion-button>
+ <ion-button  expand="block" (click)= "tercerapag()" color="secondary">SIGUIENTE</ion-button>
+</ion-content>
+
+
